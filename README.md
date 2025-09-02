@@ -1,12 +1,51 @@
-# React + Vite
+# 📺 Netflix Clone - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix-inspired web app built with React + Vite, featuring a sleek UI, movie browsing via TMDB API, and basic authentication pages.
 
-Currently, two official plugins are available:
+## 🔗Live Demo:
+https://netflix-clone-tau-beryl.vercel.app/login
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Netflix-like UI**: Modern, responsive design with movie posters displayed in rows.
+- **Movie Player Page**: Clicking on a poster redirects to a player page where only trailers, teasers, or clips are available (no full movies).
+- **Authentication Pages**:
+  - Sign Up page
+  - Login page
+  - Logout functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **TMDB API integration**: Posters and video data are fetched from TMDB.
+
+>[!Note]
+>- **For new users, please sign up first to view the website.**
+>- The top navigation menu options are placeholders and currently do not have functionality.
+>- Search not implemented (this is mostly a UI-based project).
+
+## 🧰 Tech Stack
+
+- Frontend: **React, Vite**
+- API: TMDB (REST API for posters, trailers, teasers)
+- Authentication: **Firebase**
+
+## 💻 Run Locally
+
+**Clone repository**
+>git clone https://github.com/YourUserName/Netflix_Clone.git
+
+**Install dependencies**
+>npm install
+
+**Start development server**
+>npm run dev
+
+or
+
+>npx vite
+
+
+App will run on http://localhost:5173
+
+## 🙌 Acknowledgements
+
+- Movie and video data from TMDB
+- This project uses the TMDB API but is not endorsed or certified by TMDB.
